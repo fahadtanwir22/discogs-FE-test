@@ -75,6 +75,10 @@ function App() {
               value={select}
               onChange={handleChange}
               style={{ width: "18em" }}
+              data-testid="click-create-select"
+              inputProps={{
+                "data-testid": "bio",
+              }}
             >
               <MenuItem value="">
                 <em>None</em>
